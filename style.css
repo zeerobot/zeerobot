@@ -1,0 +1,41 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background and font properties */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Solid black background */
+    font-family: 'Helvetica', sans-serif;
+    overflow: hidden;
+}
+
+/* Center the content and style the heading */
+.centered-content {
+    text-align: center;
+}
+
+/* Style for the title */
+h1 {
+    font-size: 5rem;
+    color: white; /* White text color */
+}
+
+/* Media queries for mobile compatibility */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;  /* Decrease font size on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;  /* Decrease font size on mobile */
+    }
+}
